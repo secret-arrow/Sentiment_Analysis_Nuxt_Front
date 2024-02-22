@@ -64,7 +64,7 @@ const showLoading = () => {
     spinnerColor: 'blue',
     spinnerSize: 100,
     backgroundColor: 'white',
-    message: 'Loding file and Analysing sendtiments...',
+    message: 'Loding file and Analysing sentiments...',
     messageColor: 'black'
   })
 }
