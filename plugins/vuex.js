@@ -7,6 +7,7 @@ const store = createStore({
             sentiments: [],
             notification: {},
             newRecord: false,
+            currentSentence: -1,
         };
     },
     mutations: {
@@ -14,7 +15,8 @@ const store = createStore({
         handleSentiments(state, payload) {state.sentiments = payload; },
         handleloading(state, payload) {state.loading = payload; },
         handleNotification(state, payload) { state.notification = payload; },
-        handleNewRecord(state, payload) { state.newRecord = payload; }
+        handleNewRecord(state, payload) { state.newRecord = payload; },
+        handleCurrentSentence(state, payload) { state.currentSentence = payload; }
     },
 });
 

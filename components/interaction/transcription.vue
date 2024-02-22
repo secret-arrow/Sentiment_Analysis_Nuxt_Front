@@ -28,7 +28,7 @@
                 </template>
             </q-input> 
         </div>
-        <div v-if="store.state.sentiments.length!=0" class="border-gray-400 border-[2px] border-t-0 rounded-lg rounded-t-none p-3 py-5">
+        <div v-if="store.state.sentiments.length!=0" class="border-gray-400 border-[2px] border-t-0 rounded-lg rounded-t-none py-5">
             <TranscriptionItem v-for="item in searchList" :data="item" :searchText="searchText"/>
         </div>
     </div>
